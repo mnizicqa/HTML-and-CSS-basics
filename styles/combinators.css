@@ -1,0 +1,19 @@
+#container {
+    border: 2px solid;
+}
+
+#container p {
+    color:hsl(36, 98%, 66%)
+}
+
+#container > p {
+    font-size: 1.2em;
+}
+
+#container ~ p {
+    font-weight: bold;
+}
+
+#container + p {
+    background-color: hsl(60, 100%, 70%);
+}

@@ -1,0 +1,46 @@
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown button {
+    background-color: hsl(0, 25%, 63%);
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    border:none;
+    border-radius:8px;
+    cursor: pointer;
+}
+
+.dropdown a {
+    display:block;
+    color:black;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content {
+   display: none;; 
+   position: absolute;
+   background-color: antiquewhite;
+   min-width: 100px;
+   box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.800);
+   border-radius:8px;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color:  hsl(0, 25%, 55%);
+}
+
+.dropdown a:hover {
+    background-color:  hsl(34, 60%, 65%);
+    color: white;
+}

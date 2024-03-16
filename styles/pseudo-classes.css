@@ -1,0 +1,14 @@
+#greeting {
+    font-size:1.5em;
+    font-weight: bold;
+}
+
+#greeting p {
+    background-color: hsl(195, 67%, 47%);
+    padding: 10px;
+    display: none;;
+}
+
+#greeting:hover p {
+    display: block;
+}

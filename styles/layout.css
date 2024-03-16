@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: hsl(0, 0%, 75%);
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: hsl(0, 0%, 15%);
+    height: 50px;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+
+section {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+article {
+    float: right;
+    width: 40%;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    background-color: hsl(0, 0%, 75%);
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width:600px) {
+    aside, section, article {
+        width: 100%;
+    }
+}

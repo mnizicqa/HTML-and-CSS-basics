@@ -1,0 +1,7 @@
+body{
+    background-image: url(images/sarajevo.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

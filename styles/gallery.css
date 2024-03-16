@@ -1,0 +1,30 @@
+.gallery {
+    display:inline-block;
+    border:1px solid rgb(115, 203, 233);
+    margin: 5px;
+    width: 200px;
+}
+
+.gallery .description {
+    background-color: hsl(271, 93%, 73%);
+    color: white;
+    font-size:1.1em;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.gallery:hover {
+    border:1px solid rgb(47, 83, 95);
+    
+}
+
+.gallery:hover .description {
+    color:hsl(0, 0%, 36%);
+    cursor: pointer;
+}
+
+.gallery img {
+    width: 100%;
+}
